@@ -1,0 +1,72 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Slide34",
+            "request": "launch",
+            "mainClass": "Slide34",
+            "projectName": "DemoJav_6ff5c62c"
+        },
+        {
+            "type": "java",
+            "name": "Slide35",
+            "request": "launch",
+            "mainClass": "Slide35",
+            "projectName": "DemoJav_6ff5c62c"
+        },
+        {
+            "type": "java",
+            "name": "Launch slide30",
+            "request": "launch",
+            "mainClass": "slide30",
+            "projectName": "DemoJav_6ff5c62c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Slide30",
+            "request": "launch",
+            "mainClass": "Slide30",
+            "projectName": "DemoJav_6ff5c62c"
+        },
+        {
+            "type": "java",
+            "name": "Launch slide30",
+            "request": "launch",
+            "mainClass": "Baithuchanh2402.slide30",
+            "projectName": "DemoJav_6ff5c62c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Slide30",
+            "request": "launch",
+            "mainClass": "Baithuchanh2402.Slide30",
+            "projectName": "DemoJav_6ff5c62c"
+        },
+        {
+            "name": ".NET Core Launch (web)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bin/Debug/net7.0/DemoJav.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
