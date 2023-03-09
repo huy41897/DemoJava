@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Slide47",
+            "request": "launch",
+            "mainClass": "Baithuchanh0303.Slide47",
+            "projectName": "DemoJav_6ff5c62c"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "DemoJav_6ff5c62c"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DemoJav_6ff5c62c"
+        },
+        {
+            "type": "java",
             "name": "Slide34",
             "request": "launch",
             "mainClass": "Slide34",
