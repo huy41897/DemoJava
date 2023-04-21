@@ -1,0 +1,129 @@
+public class HinhTru extends HinhTron {
+    private double chieuCao;
+
+    public double getChieuCao() {
+        return chieuCao;
+    }
+
+    public void setChieuCao(double chieuCao) {
+        this.chieuCao = chieuCao;
+    }
+    
+    @Override
+    public double getChuVi() {
+        chuVi = 2 * Math.PI * banKinh + 2 * Math.PI * banKinh;
+        return chuVi;
+    }
+    
+    @Override
+    public double getDienTich() {
+        dienTich = 2 * Math.PI * banKinh * (banKinh + chieuCao);
+        return dienTich;
+    }
+}
+
+b)  
+public class HinhVuong extends HinhHoc {
+    private double canh;
+
+    public double getCanh() {
+        return canh;
+    }
+
+    public void setCanh(double canh) {
+        this.canh = canh;
+    }
+    
+    @Override
+    public double getChuVi() {
+        chuVi = 4 * canh;
+        return chuVi;
+    }
+    
+    @Override
+    public double getDienTich() {
+        dienTich = Math.pow(canh, 2);
+        return dienTich;
+    }
+}
+
+c) 
+public class HinhTron extends HinhHoc {
+        private double banKinh;
+    
+        public double getBanKinh() {
+            return banKinh;
+        }
+    
+        public void setBanKinh(double banKinh) {
+            this.banKinh = banKinh;
+        }
+        
+        @Override
+        public double getChuVi() {
+            chuVi = 2 * Math.PI * banKinh;
+            return chuVi;
+        }
+        
+        @Override
+        public double getDienTich() {
+            dienTich = Math.PI * Math.pow(banKinh, 2);
+            return dienTich;
+    }
+ }
+
+d)
+public class HinhHoc {
+    protected double chuVi;
+    protected double dienTich;
+
+    public double getChuVi() {
+        return chuVi;
+    }
+
+    public void setChuVi(double chuVi) {
+        this.chuVi = chuVi;
+    }
+
+    public double getDienTich() {
+        return dienTich;
+    }
+
+    public void setDienTich(double dienTich) {
+        this.dienTich = dienTich;
+    }
+}
+
+e)
+public class HinhChuNhat extends HinhHoc {
+    private double chieuDai;
+    private double chieuRong;
+
+    public double getChieuDai() {
+        return chieuDai;
+    }
+
+    public void setChieuDai(double chieuDai) {
+        this.chieuDai = chieuDai;
+    }
+
+    public double getChieuRong() {
+        return chieuRong;
+    }
+
+    public void setChieuRong(double chieuRong) {
+        this.chieuRong = chieuRong;
+    }
+    
+    @Override
+    public double getChuVi() {
+        chuVi = 2 * (chieuDai + chieuRong);
+        return chuVi;
+    }
+    
+    @Override
+    public double getDienTich() {
+        dienTich = chieuDai * chieuRong;
+        return dienTich;
+    }
+}
